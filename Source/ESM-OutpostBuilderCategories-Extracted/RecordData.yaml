@@ -1,14 +1,14 @@
 SpriggitSource:
   PackageName: Spriggit.Yaml.Starfield
-  Version: 0.14.0
+  Version: 0.16.0
 ModKey: OutpostBuilderCategories.esm
 GameRelease: Starfield
 ModHeader:
   Flags:
   - Master
   Stats:
-    NumRecords: 31
-    NextFormID: 2056
+    NumRecords: 32
+    NextFormID: 2057
   Author: ''
   MasterReferences:
   - Master: Starfield.esm
