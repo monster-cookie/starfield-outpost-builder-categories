@@ -5,5 +5,4 @@ Type: RecipeFilter
 FNAM: 0x00000000
 Name:
   TargetLanguage: English
-  Value: >+
-    Pets
+  Value: Pets
