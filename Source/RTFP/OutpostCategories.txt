@@ -1,0 +1,10 @@
+minver=113
+
+[Activator]
+Starfield.esm~002C60E9|kwd_add(OutpostBuilderCategories.esm~00000800)|kwd_add(OutpostBuilderCategories.esm~00000801)|kwd_add(OutpostBuilderCategories.esm~00000802)|kwd_add(OutpostBuilderCategories.esm~00000803)|kwd_add(OutpostBuilderCategories.esm~00000804)|kwd_add(OutpostBuilderCategories.esm~00000805)|kwd_add(OutpostBuilderCategories.esm~00000806)|kwd_add(OutpostBuilderCategories.esm~00000807)|kwd_add(OutpostBuilderCategories.esm~00000808)|kwd_add(OutpostBuilderCategories.esm~00000809)
+
+[FormList]
+Starfield.esm~00058606|add(OutpostBuilderCategories.esm~00000800)|add(OutpostBuilderCategories.esm~00000801)|add(OutpostBuilderCategories.esm~00000802)|add(OutpostBuilderCategories.esm~00000803)|add(OutpostBuilderCategories.esm~00000804)|add(OutpostBuilderCategories.esm~00000805)|add(OutpostBuilderCategories.esm~00000806)|add(OutpostBuilderCategories.esm~00000807)|add(OutpostBuilderCategories.esm~00000808)|add(OutpostBuilderCategories.esm~00000809)
+
+[Debug]
+Starfield.esm~00058606|

@@ -3,26 +3,57 @@ Like Ship Builder Categories, this is a resource mod for adding custom categorie
 
 [size=3][b]New Categories[/b][/size]
 [list]
+[*]Animated [NEW]
+[*]Buildings [NEW]
+[*]Clutter [NEW]
+[*]Coming Soon [NEW]
 [*]Domes
 [*]Farming
 [*]Foundations
-[*]Landscape
+[*]Homes [NEW]
+[*]Humans
+[*]Kitchen [NEW]
+[*]Landscaping
 [*]Lights
 [*]Mechs
 [*]Pets
+[*]Plants [NEW]
+[*]Turrets [NEW]
 [*]Vehicles
-[*]Humans [NEW]
 [/list]
 
 [quote]
-  NOTE: This is very much a beta until CK2.
-  [color=#ff0000]WARNING:[/color] This uses a special version of xEdit that can copy REFL records to add a custom pets category to the decorator and beacons. I have tested it as best as I can with new games, NG+ universes, outposts, and ships. And have reversed the related REFL even though I don't touch them at all looking for the problematic form ID and in general what it does. Only then did I proceed this route. 
-[/quote]
+  NOTE: This is very much a beta until CK2.[/quote]
 
 [size=4][b][u]Usage[/u][/b][/size]
-As a user, just deploy and activate the outpost beacon or home decorator as normal you will see the new categories if another mod has constructable objects populating the category.
 
-As a modder, if you don't see a category you need please let me know and I'll get it added asap. Just link the keyword for the category to your constructable objects as normal.
+[size=3][b]Users[/b][/size]
+Just deploy and activate the outpost beacon or home decorator as normal you will see the new categories if another mod has constructable objects populating the category.
+
+[size=3][b]Modders[/b][/size]
+If you don't see a category, you need please let me know and I'll get it added asap. Then just link the keyword for the category to your constructable objects as normal.
+
+[size=2][b]Custom Categories[/b][/size]
+As of version 1.0.4, you can now add your own categories in your mod and use the instructions below it inject them with RTFP. 
+
+1. Open xEdit and goto your Mod
+2. Create a new Keyword of Type "Recipe Filter". The editor ID MUST start with OutpostCategory and "FULL - Name" should be set.
+3. Save and Close xEdit make note of the Form IDs for your new Categories
+4. Create a blank text file in \<GameDir\>\\Data\\SFSE\\Plugins\\RealTimeFormPatcher\\\<YourModsName\>.txt. Replace the macros items (\<macro\>) with their correct values. 
+5. Use the example below to create you file
+6. Save and exit your text editor
+
+[size=1][b][u]Example RTFP File[/u][/b][/size]
+
+See [url=https://www.nexusmods.com/starfield/mods/8324]RTFP Nexus Page[/url] for full documentation.
+
+[code]
+[Activator]
+Starfield.esm~002C60E9|kwd_add(OutpostBuilderCategories.esm~00000800)
+
+[FormList]
+Starfield.esm~00058606|add(OutpostBuilderCategories.esm~00000800)
+[/code]
 
 [size=4][b][u]Installation [/u][/b][/size]
 [size=3][b]Via Vortex/MO2[/b][/size]
@@ -51,4 +82,4 @@ These are instructions from the author of the mod:
 [/list]
 
 [size=4][b][u]Source Code[/u][/b][/size]
-The source code to this is on GitHub under the repository [url=https://github.com/monster-cookie/starfield-outpost-builder-categories]starfield-outpost-builder-categories[/url]
+The source code to this is on GitHub under the repository [url=https://github.com/monster-cookie/starfield-outpost-builder-categories]starfield-outpost-builder-categories[/url]

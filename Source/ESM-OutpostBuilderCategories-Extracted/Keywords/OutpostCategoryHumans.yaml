@@ -1,8 +1,0 @@
-FormKey: 000808:OutpostBuilderCategories.esm
-EditorID: OutpostCategoryHumans
-Color: '#00FFFFFF'
-Type: RecipeFilter
-FNAM: 0x00000000
-Name:
-  TargetLanguage: English
-  Value: Humans
