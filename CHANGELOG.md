@@ -1,5 +1,8 @@
 # Outpost Builder Categories
 
+## Version 1.0.5
+* RTFP chages reset to an early version for some reason. Thank you to NitroSBack for catching it and fixing it so all I had to do was repackage. 
+
 ## Version 1.0.4
 * No longer overrides with reflection the beacon and decorators this is now handled by RTFP scripts. 
 * RTFP is now a requirement. This allows modders to use the shared categories defined in the ESM or you add and inject their own. See the articles on Nexus or GitHub. 
