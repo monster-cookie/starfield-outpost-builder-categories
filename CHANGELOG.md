@@ -1,5 +1,14 @@
 # Outpost Builder Categories
 
+## Version 1.0.8 
+* Upload error again and fixed a spelling error
+
+## Version 1.0.7
+* More categories from/for NitroSBack
+
+## Version 1.0.6
+* New statues and artwork categories for NitroSBack
+
 ## Version 1.0.5
 * RTFP changes reset to an early version for some reason. Thank you to NitroSBack for catching it and fixing it so all I had to do was repackage. 
 
